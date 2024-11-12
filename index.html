@@ -4,72 +4,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind CSS Setup</title>
+  <title>sopyanCss</title>
   <link href="/dist/output.css" rel="stylesheet">
-  <!-- Clash Display and Poppins fonts -->
+ 
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="svg.css">
   <script src="/abde.js"></script>
-  <style>
-    .container {
 
-      position: relative;
-      overflow: hidden;
-      /* Menghindari gambar keluar dari div */
-    }
-
-    .icon {
-      width: 3rem;
-      /* Sesuaikan ukuran gambar */
-      transition: filter 0.3s ease;
-      /* Efek transisi saat hover */
-    }
-
-    .container:hover .icon {
-      filter: brightness(0) invert(1);
-      /* Mengubah gambar menjadi putih */
-    }
-
-    .ikon {
-      filter: brightness(0) invert(1);
-    }
-  </style>
 </head>
 
 <body class="bg-gradient-to-r from-white to-gray-300 font-['Poppins']">
 
-  <!-- navigasi -->
+  
   <nav class="flex flex-row justify-between max-w-7xl m-auto mt-6 items-center  ">
     <div>
-      <!-- logo -->
+  
       <a href="#">
         <img src="/src/Frame 2.png" alt="logo" class="h-12">
       </a>
     </div>
-    <!-- list menu -->
+   
     <ul class="flex flex-row text-xl gap-x-5 font-semibold text-black">
-      <li><a href="#" class="hover:text-violet-500">PRODUCT</a></li>
-      <li><a href="#" class="hover:text-violet-500">SERVICE</a></li>
-      <li><a href="#" class="hover:text-violet-500">PRICING</a></li>
-      <li><a href="#" class="hover:text-violet-500">TESTIMONI</a></li>
-      <li><a href="#" class="hover:text-violet-500">BLOG</a></li>
+      <li><a href="#" class="hover:text-violet-500">Products</a></li>
+      <li><a href="#" class="hover:text-violet-500">Service</a></li>
+      <li><a href="#" class="hover:text-violet-500">Pricing</a></li>
+      <li><a href="#" class="hover:text-violet-500">Testimoni</a></li>
+      <li><a href="#" class="hover:text-violet-500">Blog</a></li>
     </ul>
-    <!-- tombol -->
+  
     <div class="flex flex-row items-center gap-x-3">
-      <!-- logo -->
+    
       <a href="#">
         <img src="/src/btn small secondary.png" alt="chart" class="h-10">
       </a>
-      <!-- button -->
+   
       <a href="#" class="bg-slate-500 rounded-full px-4 py-2 text-white font-semibold  hover:bg-violet-500">
         Sign in
       </a>
     </div>
   </nav>
 
-  <!-- main -->
+
   <section class="max-w-7xl mx-auto py-24">
     <div class="flex  flex-row items-center justify-around">
       <div class="flex flex-col space-y-6">
@@ -220,6 +197,27 @@
           </clipPath>
         </defs>
       </svg>
+
+      <svg width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_1_410)">
+        <path d="M42.7789 24.3168H52.6903V21.3314H46.3016V10.0865H42.7789V24.3168Z" fill="#640EF1"/>
+        <path d="M58.5625 22.3266C57.1494 22.3266 56.413 21.0926 56.413 19.2417C56.413 17.3907 57.1494 16.1369 58.5625 16.1369C59.9755 16.1369 60.7318 17.3907 60.7318 19.2417C60.7318 21.0926 59.9755 22.3266 58.5625 22.3266ZM58.5824 24.6352C61.8663 24.6352 64.0157 22.3067 64.0157 19.2417C64.0157 16.1767 61.8663 13.8481 58.5824 13.8481C55.3184 13.8481 53.1291 16.1767 53.1291 19.2417C53.1291 22.3067 55.3184 24.6352 58.5824 24.6352Z" fill="#640EF1"/>
+        <path d="M69.6999 27.8395C71.2124 27.8395 72.5459 27.5012 73.4415 26.7051C74.2575 25.9687 74.7949 24.8542 74.7949 23.3217V14.1268H71.6901V15.2214H71.6503C71.0532 14.3656 70.1377 13.8282 68.7844 13.8282C66.2567 13.8282 64.5053 15.9379 64.5053 18.9232C64.5053 22.0479 66.6349 23.7595 68.9237 23.7595C70.1576 23.7595 70.9338 23.262 71.5309 22.5853H71.6105V23.6003C71.6105 24.8343 71.0333 25.5508 69.6601 25.5508C68.5853 25.5508 68.048 25.093 67.8688 24.5556H64.7243C65.0427 26.6852 66.8936 27.8395 69.6999 27.8395ZM69.68 21.3513C68.4659 21.3513 67.6698 20.3562 67.6698 18.8237C67.6698 17.2713 68.4659 16.2762 69.68 16.2762C71.0333 16.2762 71.7498 17.4306 71.7498 18.8038C71.7498 20.2368 71.093 21.3513 69.68 21.3513Z" fill="#640EF1"/>
+        <path d="M81.1789 22.3266C79.7658 22.3266 79.0294 21.0926 79.0294 19.2417C79.0294 17.3907 79.7658 16.1369 81.1789 16.1369C82.592 16.1369 83.3479 17.3907 83.3479 19.2417C83.3479 21.0926 82.592 22.3266 81.1789 22.3266ZM81.1988 24.6352C84.4824 24.6352 86.6318 22.3067 86.6318 19.2417C86.6318 16.1767 84.4824 13.8481 81.1988 13.8481C77.9348 13.8481 75.7455 16.1767 75.7455 19.2417C75.7455 22.3067 77.9348 24.6352 81.1988 24.6352Z" fill="#640EF1"/>
+        <path d="M87.5797 24.3168H90.8238V14.1267H87.5797V24.3168ZM87.5797 12.7137H90.8238V10.0865H87.5797V12.7137Z" fill="#640EF1"/>
+        <path d="M92.2311 27.6803H95.4752V23.262H95.515C96.1519 24.1178 97.0873 24.6352 98.4008 24.6352C101.068 24.6352 102.839 22.5256 102.839 19.2218C102.839 16.1568 101.187 13.8282 98.4804 13.8282C97.0873 13.8282 96.0921 14.4452 95.3956 15.3607H95.3359V14.1268H92.2311V27.6803ZM97.5649 22.1275C96.1718 22.1275 95.3757 20.9931 95.3757 19.3412C95.3757 17.6893 96.0922 16.4354 97.5052 16.4354C98.8984 16.4354 99.5552 17.5898 99.5552 19.3412C99.5552 21.0727 98.7989 22.1275 97.5649 22.1275Z" fill="#640EF1"/>
+        <path d="M108.121 24.6352C110.788 24.6352 112.758 23.4809 112.758 21.2518C112.758 18.6446 110.648 18.1869 108.857 17.8883C107.563 17.6495 106.409 17.55 106.409 16.8335C106.409 16.1966 107.026 15.8981 107.822 15.8981C108.718 15.8981 109.335 16.1767 109.454 17.0922H112.44C112.28 15.0821 110.728 13.8282 107.842 13.8282C105.434 13.8282 103.444 14.9428 103.444 17.0922C103.444 19.4805 105.334 19.9582 107.106 20.2567C108.459 20.4955 109.693 20.595 109.693 21.5106C109.693 22.1673 109.076 22.5256 108.101 22.5256C107.026 22.5256 106.349 22.028 106.23 21.013H103.165C103.264 23.262 105.135 24.6352 108.121 24.6352Z" fill="#640EF1"/>
+        <path d="M117.165 24.6153C118.578 24.6153 119.473 24.0581 120.21 23.0629H120.269V24.3168H123.374V14.1267H120.13V19.8188C120.13 21.0329 119.453 21.8688 118.339 21.8688C117.304 21.8688 116.806 21.2518 116.806 20.1373V14.1267H113.582V20.814C113.582 23.0828 114.816 24.6153 117.165 24.6153Z" fill="#640EF1"/>
+        <path d="M124.786 24.3168H128.03V18.6048C128.03 17.3908 128.627 16.5349 129.642 16.5349C130.617 16.5349 131.075 17.1718 131.075 18.2665V24.3168H134.319V18.6048C134.319 17.3908 134.896 16.5349 135.931 16.5349C136.906 16.5349 137.364 17.1718 137.364 18.2665V24.3168H140.608V17.6893C140.608 15.4005 139.454 13.8282 137.145 13.8282C135.832 13.8282 134.737 14.3855 133.941 15.6194H133.901C133.384 14.5248 132.369 13.8282 131.035 13.8282C129.562 13.8282 128.587 14.5248 127.95 15.5796H127.89V14.1268H124.786V24.3168Z" fill="#640EF1"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9256 33.4388C26.0855 33.4388 33.5109 26.0132 33.5109 16.8534C33.5109 7.69358 26.0855 0.268066 16.9256 0.268066C7.76574 0.268066 0.340225 7.69358 0.340225 16.8534C0.340225 26.0132 7.76574 33.4388 16.9256 33.4388ZM19.4855 13.0824C20.8992 11.6686 20.8992 9.37638 19.4855 7.96256C18.0717 6.54876 15.7795 6.54876 14.3657 7.96256C12.952 9.37638 12.952 11.6686 14.3657 13.0824L16.9256 15.6423L19.4855 13.0824ZM20.6967 19.4133C22.1105 20.8272 24.4027 20.8272 25.8165 19.4133C27.2302 17.9995 27.2302 15.7073 25.8165 14.2935C24.4027 12.8798 22.1105 12.8798 20.6967 14.2935L18.1368 16.8535L20.6967 19.4133ZM19.4855 25.7443C20.8992 24.3305 20.8992 22.0383 19.4855 20.6245L16.9256 18.0646L14.3657 20.6245C12.952 22.0383 12.952 24.3305 14.3657 25.7443C15.7795 27.1581 18.0717 27.1581 19.4855 25.7443ZM8.0347 19.4133C6.62093 17.9995 6.62093 15.7073 8.0347 14.2935C9.44854 12.8798 11.7407 12.8798 13.1545 14.2935L15.7144 16.8535L13.1545 19.4133C11.7407 20.8272 9.44854 20.8272 8.0347 19.4133Z" fill="#640EF1"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_1_410">
+        <rect width="140.976" height="34" fill="white" transform="translate(0.256104)"/>
+        </clipPath>
+        </defs>
+        </svg>
+
       <svg width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1_421)">
           <path d="M43.7377 23.3339H53.6491V20.3486H47.2604V9.1037H43.7377V23.3339Z" fill="#080C2E" />
@@ -257,6 +255,8 @@
         </defs>
       </svg>
 
+    
+
     </div>
   </section>
 
@@ -265,37 +265,37 @@
     <div class="grid grid-cols-4 gap-x-5 py-20 mx-5 ">
 
       <div
-        class="container flex flex-col p-5 bg-white rounded-2xl my-card  shadow-sm shadow-black  hover:bg-b hover:text-white ease-in duration-300 backdrop-blur-lg aspect-w-1 aspect-h-1 hover:shadow-sm hover:shadow-white ">
+        class="container flex flex-col p-5 bg-white rounded-2xl my-card  shadow-sm shadow-black">
         <img class="icon size-12" src="/src/f1.png" alt="">
-        <h3 class="font-['Clash_Display'] text-[20px] py-4 ">EXTRA LAYERS</h3>
-        <P class="text-gray-600">ingat darah keturunan pekai akan mengalir ke anak dan cucunya dan ia akan tetap jadi
-          pengianat</P>
+        <h3 class="font-['Clash_Display'] text-[20px] py-4 ">Extra layer</h3>
+        <P class="text-gray-600">Making your project more secure avoiding DDoS</P>
         <a href="" class="font-['Clash_Display'] text-[20px] py-5 text-violet-600"> learn more</a>
       </div>
       <div
-        class="container flex flex-col p-5 bg-white rounded-2xl my-card  shadow-sm shadow-black  hover:bg-b hover:text-white ease-in duration-300 backdrop-blur-lg aspect-w-1 aspect-h-1 hover:shadow-sm hover:shadow-white">
+        class="container flex flex-col p-5 bg-white rounded-2xl my-card  shadow-sm shadow-black  ">
         <img class="icon size-12" src="/src/f2.png" alt="">
         <h3 class="font-['Clash_Display'] text-[20px] py-4 ">Customizable</h3>
-        <P class="text-gray-600">ingat darah keturunan pekai akan mengalir ke anak dan cucunya dan ia akan tetap jadi
-          pengianat</P>
+        <P class="text-gray-600">Only install what your business needs to grow</P>
         <a href="" class="font-['Clash_Display'] text-[20px] py-5 text-violet-600"> learn more</a>
       </div>
-      <div
-        class="container flex flex-col p-5 bg-white rounded-2xl my-card shadow-sm shadow-black hover:bg-b hover:text-white ease-in duration-300 backdrop-blur-lg aspect-w-1 aspect-h-1 hover:shadow-sm hover:shadow-white">
-        <img class="icon size-12" src="/src/f3.png" alt="">
-        <h3 class="font-['Clash_Display'] text-[20px] py-4 ">AI Automation</h3>
-        <P class="text-gray-600">ingat darah keturunan pekai akan mengalir ke anak dan cucunya dan ia akan tetap jadi
-          pengianat</P>
-        <a href="" class="font-['Clash_Display'] text-[20px] py-5 text-violet-600"> learn more</a>
-      </div>
-      <div
-        class="container flex flex-col p-5 bg-white rounded-2xl my-card  shadow-sm shadow-black  hover:bg-b hover:text-white ease-in duration-300 backdrop-blur-lg aspect-w-1 aspect-h-1 hover:shadow-sm hover:shadow-white  ">
+      <div class="container flex flex-col p-5 bg-black text-white rounded-2xl my-card shadow-sm shadow-black">
         <img class="icon size-12" src="/src/f4.png" alt="">
-        <h3 class="font-['Clash_Display'] text-[20px] py-4 ">Auto-Scaling</h3>
-        <P class="text-gray-600">ingat darah keturunan pekai akan mengalir ke anak dan cucunya dan ia akan tetap jadi
-          pengianat</P>
-        <a href="" class="font-['Clash_Display'] text-[20px] py-5 text-violet-600"> learn more</a>
+        <h3 class="font-['Clash_Display'] text-[20px] py-4">AI Automation</h3>
+        <p class="text-gray-300">Decide the business flow based on latest reports</p>
+        <a href="#" class="font-['Clash_Display'] text-[20px] py-5 text-violet-500">Learn more</a>
       </div>
+      <div
+      class="container flex flex-col p-5 bg-white rounded-2xl my-card  shadow-sm shadow-black">
+      <img class="icon size-12" src="/src/f1.png" alt="">
+      <h3 class="font-['Clash_Display'] text-[20px] py-4 ">Auto-Scaling</h3>
+      <P class="text-gray-600">Have a long weekend without worrying any loss</P>
+      <a href="" class="font-['Clash_Display'] text-[20px] py-5 text-violet-600"> learn more</a>
+    </div>
+
+
+
+      
+      
     </div>
   </section>
   <section class="home2 py-2  ">
@@ -357,194 +357,67 @@
       </div>
     </div>
   </section>
-  <!-- tab terakhir -->
-  <section class="py-20">
-    <h1 class=" text-gray-800 font-['Clash_Display'] text-[50px]  text-center">Our Showcase</h1>
-    <p class="text-center text-gray-600">They built amazing website to help more people around the world
-      <br>by using our recommendation services and products
-    </p>
-    <div class="flex flex-row gap-x-10 py-20 justify-center mx-auto">
-      <div class="relative group w-64 h-64">
-        <img src="/src/r3.png" alt="Image" class="w-full h-full object-cover rounded-md">
-
-        <!-- Border saat hover -->
-        <div
-          class="absolute inset-0 border-4 border-transparent rounded-md group-hover:border-violet-700  transition duration-300">
-        </div>
-
-        <!-- Tombol saat hover -->
-        <button
-          class=" absolute bottom-10  left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-violet-700 text-white px-5 py-2 rounded-full transition duration-300">
-          Lihat Detail
-        </button>
-
-      </div>
-      <div class="relative group w-64 h-64">
-        <img src="/src/r3.png" alt="Image" class="w-full h-full object-cover rounded-md">
-
-        <!-- Border saat hover -->
-        <div
-          class="absolute inset-0 border-4 border-transparent rounded-md group-hover:border-violet-700  transition duration-300">
-        </div>
-
-        <!-- Tombol saat hover -->
-        <button
-          class=" absolute bottom-10  left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-violet-700 text-white px-5 py-2 rounded-full transition duration-300">
-          Lihat Detail
-        </button>
-
-      </div>
-      <div class="relative group w-64 h-64">
-        <img src="/src/r3.png" alt="Image" class="w-full h-full object-cover rounded-md">
-
-        <!-- Border saat hover -->
-        <div
-          class="absolute inset-0 border-4 border-transparent rounded-md group-hover:border-violet-700  transition duration-300">
-        </div>
-
-        <!-- Tombol saat hover -->
-        <button
-          class=" absolute bottom-10  left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-violet-700 text-white px-5 py-2 rounded-full transition duration-300">
-          Lihat Detail
-        </button>
-
-      </div>
-      <div class="relative group w-64 h-64">
-        <img src="/src/r3.png" alt="Image" class="w-full h-full object-cover rounded-md">
-
-        <!-- Border saat hover -->
-        <div
-          class="absolute inset-0 border-4 border-transparent rounded-md group-hover:border-violet-700  transition duration-300">
-        </div>
-
-        <!-- Tombol saat hover -->
-        <button
-          class=" absolute bottom-10  left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-violet-700 text-white px-5 py-2 rounded-full transition duration-300">
-          Lihat Detail
-        </button>
-
-
-
-
-
-
-      </div>
-
-    </div>
-
-
-    </div>
-  </section>
+ 
 
   <section class="py-2">
     <h1 class=" text-gray-800 font-['Clash_Display'] text-[50px]  text-center">Frequently Asked Questions</h1>
     <div class="flex flex-row justify-center ga py-24 m-auto ">
       <div class="">
         <div class="flex flex-col justify-around gap-y-8 mx-5">
-          <!-- Pertanyaan 1 -->
+        
           <div class="flex flex-col  bg-gray-100 rounded-md py-3 px-4">
             <div id="p1-1" class="flex flex-row justify-between items-center gap-x-8  ">
               <p class="text-base font-bold">What benefits does Kapp provide for team collaboration?</p>
-              <button id="toggleButton-1" onclick="toggleText('additionalText-1')">
-                <img id="arrowIcon-1" src="/src/1r1.png">
-              </button>
+
             </div>
-            <div id="additionalText-1" class="hidden mt-2 max-w-lg  text-gray-700 text-base font-semibold">
-              Kapp enhances team collaboration by providing a centralized platform where members can share resources,
-              communicate efficiently, and stay updated on project progress.
-              <br><a href=" " class=" text-violet-600 font-bold">
-                learn more
-              </a>
-            </div>
+
           </div>
 
-          <!-- Pertanyaan 2 -->
+         
           <div class="flex flex-col  bg-gray-100 rounded-md py-3 px-4">
             <div id="p1-2" class="flex flex-row justify-between items-center ">
               <p class="text-base font-bold">How does Kapp help improve productivity?</p>
-              <button id="toggleButton-2" onclick="toggleText('additionalText-2')">
-                <img id="arrowIcon-2" src="/src/1r1.png">
-              </button>
+
             </div>
-            <div id="additionalText-2" class="hidden mt-2 max-w-lg  text-gray-700 text-base font-semibold">
-              By automating routine tasks and providing tools for task prioritization, Kapp helps users focus on
-              high-impact activities, significantly boosting productivity.
-              <br><a href=" " class=" text-violet-600 font-bold">
-                learn more
-              </a>
-            </div>
+  
           </div>
 
-          <!-- Pertanyaan 3 -->
           <div class="flex flex-col bg-gray-100 rounded-md py-3 px-4   ">
             <div id="p1-3" class="flex flex-row justify-between items-center gap-x-8 ">
               <p class="text-base font-bold">What makes Kapp a secure choice for data management?</p>
-              <button id="toggleButton-3" onclick="toggleText('additionalText-3')">
-                <img id="arrowIcon-3" src="/src/1r1.png">
-              </button>
             </div>
-            <div id="additionalText-3" class="hidden mt-2 max-w-lg  text-gray-700 text-base font-semibold">
-              Kapp incorporates advanced encryption, regular security audits, and role-based access controls, making it
-              a secure choice for handling sensitive data.
-              <br><a href=" " class=" text-violet-600 font-bold">
-                learn more
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
 
       <div class="">
         <div class="flex flex-col gap-y-8">
-          <!-- Pertanyaan 4 -->
+         
           <div class="flex flex-col  bg-gray-100 rounded-md py-3 px-4">
             <div id="p1-4" class="flex flex-row justify-between items-center   ">
               <p class="text-base font-bold">What benefits does Kapp provide for team collaboration?</p>
-              <button id="toggleButton-4" onclick="toggleText('additionalText-4')">
-                <img id="arrowIcon-4" src="/src/1r1.png">
-              </button>
+
             </div>
-            <div id="additionalText-4" class="hidden mt-2 max-w-lg  text-gray-700 text-base font-semibold">
-              Kapp enhances team collaboration by providing a centralized platform where members can share resources,
-              communicate efficiently, and stay updated on project progress.
-              <br><a href=" " class=" text-violet-600 font-bold">
-                learn more
-              </a>
-            </div>
+   
           </div>
 
-          <!-- Pertanyaan 5 -->
+          
           <div class="flex flex-col bg-gray-100 rounded-md py-3 px-4">
             <div id="p1-5" class="flex flex-row justify-between items-center max-w-xl  ">
               <p class="text-base font-bold">How does Kapp help improve productivity?</p>
-              <button id="toggleButton-2" onclick="toggleText('additionalText-5')">
-                <img id="arrowIcon-5" src="/src/1r1.png">
-              </button>
+
             </div>
-            <div id="additionalText-5" class="hidden mt-2 max-w-lg  text-gray-700 text-base font-semibold">
-              By automating routine tasks and providing tools for task prioritization, Kapp helps users focus on
-              high-impact activities, significantly boosting productivity.
-              <br><a href=" " class=" text-violet-600 font-bold">
-                learn more
-              </a>
-            </div>
+
           </div>
 
-          <!-- Pertanyaan 6 -->
+         
           <div class="flex flex-col  bg-gray-100 rounded-md py-3 px-4">
             <div id="p1-6" class="flex flex-row gap-x-5 justify-between items-center  ">
               <p class="text-base font-bold">What makes Kapp a secure choice for data management?</p>
-              <button id="toggleButton-6" onclick="toggleText('additionalText-6')">
-                <img id="arrowIcon-3" src="/src/1r1.png">
-              </button>
+
             </div>
-            <div id="additionalText-6" class="hidden mt-2 max-w-lg  text-gray-700 text-base font-semibold">
-              Kapp incorporates advanced encryption, regular security audits, and role-based access controls, making it
-              a secure choice for handling sensitive data.
-              <br><a href=" " class=" text-violet-600 font-bold">
-                learn more
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
@@ -555,10 +428,10 @@
   </section>
 
   <section class=" relative grid place-content-around pt-20 ">
-    <!-- Elemen dengan latar belakang bg-a -->
+   
     <div class="  relative z-20  flex flex-row   justify-around bg-a gap-x-5 rounded-3xl p-10 ">
 
-      <!-- Konten bg-a -->
+      
       <div class="flex flex-col justify-around ">
         <div class="flex flex-row p-5 justify-start items-center">
           <div class="bg-white rounded-full small-badge px-4 py-2 gap-x-3 flex flex-row items-center">
@@ -585,7 +458,7 @@
         </div>
       </div>
 
-      <!-- Grid Card -->
+     
       <div class="flex flex-col justify-between">
         <div class="grid grid-cols-3 gap-x-5 py-10">
           <div
@@ -627,7 +500,7 @@
 
 
 
-    <!-- Elemen dengan latar belakang bg-b -->
+   
     <div class="absolute top-0 left-0 w-full bg-b px-6 py-12 flex flex-row justify-around z-10 mt-72 ">
       <div class="flex flex-col ">
 
@@ -689,7 +562,7 @@
 
       </div>
 
-      <!-- Konten Footer -->
+  
 
     </div>
   </section>
